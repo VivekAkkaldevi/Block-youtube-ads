@@ -1,3 +1,5 @@
+# copy this code in ublock extension of chrome browser
+
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 
 youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
